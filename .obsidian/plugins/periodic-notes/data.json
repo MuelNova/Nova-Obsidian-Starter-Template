@@ -1,0 +1,34 @@
+{
+  "showGettingStartedBanner": false,
+  "hasMigratedDailyNoteSettings": true,
+  "hasMigratedWeeklyNoteSettings": true,
+  "daily": {
+    "format": "YYYY/[W]WW/YYYY-MM-DD",
+    "folder": "obsidian/Journal",
+    "template": "obsidian/Template/daily.md",
+    "enabled": true
+  },
+  "weekly": {
+    "format": "yyyy/[W]WW/yyyy-[W]ww",
+    "folder": "obsidian/Journal",
+    "template": "obsidian/Template/weekly.md",
+    "enabled": true
+  },
+  "monthly": {
+    "format": "yyyy/yyyy-MM",
+    "template": "obsidian/Template/monthly.md",
+    "folder": "obsidian/Journal",
+    "enabled": true
+  },
+  "quarterly": {
+    "format": "",
+    "template": "",
+    "folder": ""
+  },
+  "yearly": {
+    "format": "YYYY/YYYY",
+    "template": "",
+    "folder": "obsidian/Journal",
+    "enabled": true
+  }
+}
