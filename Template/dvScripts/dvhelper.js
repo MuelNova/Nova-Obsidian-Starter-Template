@@ -100,12 +100,15 @@ const dvHelper = {
         let totalScore = 0;
         let totalSleep = 0;
         let average_bed_time = 0;
+        let average_wakeup_time = 0;
         let length = 0;
         for (let note of pages) {
             let [score, time_] = this.calcSleepScore(note, false);
             if (score != null || score == 0) {
                 let sleep = parseTime(note.sleep_time);
                 average_bed_time += sleep.getHours() + sleep.getMinutes() / 60;
+                let wakeup = parseTime(note.sleep_to);
+                average_wakeup_time += wakeup.getHours() + wakeup.getMinutes() / 60;
                 totalScore += score;
                 totalSleep += parseFloat(time_);
                 length += 1;
@@ -119,10 +122,14 @@ const dvHelper = {
             var average = totalScore / length;
             var average_hours = totalSleep / length;
             average_bed_time /= length;
+            average_wakeup_time /= length;
         }
         if (render) {
             const average_bed_time_string = Math.floor(average_bed_time).toString().padStart(2, '0') + ":" + Math.floor((average_bed_time - Math.floor(average_bed_time)) * 60).toString().padStart(2, '0');
-            const res = "💯得分：" + average.toFixed(2) + " / 1.00\n👏记录次数：" + length + "\n😎平均时间：" + average_hours.toFixed(2) + "h\n🛏️平均入睡时间：" + average_bed_time_string;
+            const res = "💯得分：" + average.toFixed(2) + 
+              " / 1.00\n👏记录次数：" + length + "\n😎平均时间：" + 
+              average_hours.toFixed(2) + "h\n🛏️平均入睡时间：" + average_bed_time_string + 
+              "\n🌞平均起床时间：" + Math.floor(average_wakeup_time).toString().padStart(2, '0') + ":" + Math.floor((average_wakeup_time - Math.floor(average_wakeup_time)) * 60).toString().padStart(2, '0');
             dv.el('div', res, {cls: average >= 0.8 ? 'score-tier1' : average >= 0.5 ? 'score-tier2' : 'score-tier3'})
         }
         return average;

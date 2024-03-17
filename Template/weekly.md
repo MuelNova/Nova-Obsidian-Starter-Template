@@ -30,15 +30,18 @@ function calculateTimeDifference(time1, time2, type) {
 
 const times = [];
 const sleepTimes = [];
+const wakeupTimes = [];
 
 for (let page of window.pages) {
 	if (page['sleep_to'] && page['sleep_time']) {
 		times.push(calculateTimeDifference(parseTime(page['sleep_to']), parseTime(page['sleep_time']), 'hours'));
 		sleepTimes.push(parseTime(page['sleep_time']).valueOf())
+		wakeupTimes.push(parseTime(page['sleep_to']).valueOf())
 	}
 	else {
 		times.push(0);
 		sleepTimes.push(parseTime("21:00"))
+		wakeupTimes.push(parseTime("09:00"))
 	}
 }
 
@@ -60,6 +63,15 @@ const chartData = {
             data: sleepTimes,
             pointBackgroundColor: '#2ce0d6',
             borderColor: '#2ce0d65c',
+            tension: 0.4,
+            spanGaps: true,
+            yAxisID: 'y2'
+        },
+        {
+            label: 'Wakeup Time',
+            data: wakeupTimes,
+            pointBackgroundColor: '#ff6347',
+            borderColor: '#ff63477c',
             tension: 0.4,
             spanGaps: true,
             yAxisID: 'y2'
