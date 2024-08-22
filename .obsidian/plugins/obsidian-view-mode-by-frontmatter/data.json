@@ -1,0 +1,41 @@
+{
+  "debounceTimeout": 300,
+  "ignoreOpenFiles": false,
+  "ignoreForceViewAll": false,
+  "folders": [
+    {
+      "folder": "Inputs/Zotero",
+      "viewMode": "obsidianUIMode: preview"
+    },
+    {
+      "folder": "Locations/Institutes",
+      "viewMode": "obsidianUIMode: preview"
+    },
+    {
+      "folder": "Projects",
+      "viewMode": "obsidianUIMode: preview"
+    },
+    {
+      "folder": "Persons/Scholars",
+      "viewMode": "obsidianUIMode: preview"
+    },
+    {
+      "folder": "Places/Institutes",
+      "viewMode": "obsidianUIMode: preview"
+    },
+    {
+      "folder": "00 - 每日日记",
+      "viewMode": "obsidianUIMode: preview"
+    }
+  ],
+  "files": [
+    {
+      "filePattern": "00.*",
+      "viewMode": "obsidianUIMode: preview"
+    },
+    {
+      "filePattern": "",
+      "viewMode": ""
+    }
+  ]
+}

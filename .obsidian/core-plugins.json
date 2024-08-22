@@ -9,14 +9,13 @@
   "tag-pane",
   "properties",
   "page-preview",
-  "templates",
+  "daily-notes",
   "note-composer",
   "command-palette",
-  "slash-command",
-  "editor-status",
   "bookmarks",
-  "zk-prefixer",
+  "markdown-importer",
   "outline",
   "word-count",
+  "workspaces",
   "file-recovery"
 ]

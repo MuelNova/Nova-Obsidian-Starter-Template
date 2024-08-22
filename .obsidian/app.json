@@ -1,14 +1,18 @@
 {
+  "communityThemeSortOrder": "download",
+  "legacyEditor": false,
+  "livePreview": true,
+  "alwaysUpdateLinks": true,
   "promptDelete": false,
   "pdfExportSettings": {
     "includeName": true,
-    "pageSize": "A4",
+    "pageSize": "Letter",
     "landscape": false,
     "margin": "0",
     "downscalePercent": 100
   },
-  "attachmentFolderPath": "./attachments",
-  "newFileLocation": "folder",
-  "newFileFolderPath": "obsidian",
-  "alwaysUpdateLinks": true
+  "attachmentFolderPath": "40 - Obsidian/附件",
+  "showInlineTitle": true,
+  "propertiesInDocument": "source",
+  "showRibbon": true
 }

@@ -242,7 +242,7 @@ function getDateFromFilename(filename, granularity) {
     if (isFormatAmbiguous(format, granularity)) {
         if (granularity === "week") {
             const cleanFormat = removeEscapedCharacters(format);
-            if (/w{1,2}/i.test(cleanFormat)) {
+            if (/W{1,2}/i.test(cleanFormat)) {
                 return window.moment(filename, 
                 // If format contains week, remove day & month formatting
                 format.replace(/M{1,4}/g, "").replace(/D{1,4}/g, ""), false);

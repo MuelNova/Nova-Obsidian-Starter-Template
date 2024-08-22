@@ -1,24 +1,23 @@
 {
   "showGettingStartedBanner": false,
-  "hasMigratedDailyNoteSettings": true,
+  "hasMigratedDailyNoteSettings": false,
   "hasMigratedWeeklyNoteSettings": true,
   "daily": {
-    "format": "YYYY/[W]WW/YYYY-MM-DD",
-    "folder": "obsidian/Journal",
-    "template": "obsidian/Template/daily.md",
+    "format": "",
+    "template": "40 - Obsidian/模板/每日日记模板.md",
+    "folder": "00 - 每日日记/DailyNote",
     "enabled": true
   },
   "weekly": {
-    "format": "yyyy/[W]WW/yyyy-[W]ww",
-    "folder": "obsidian/Journal",
-    "template": "obsidian/Template/weekly.md",
+    "format": "gggg-[W]ww",
+    "folder": "00 - 每日日记/WeeklyNote",
+    "template": "40 - Obsidian/模板/每周周记模板.md",
     "enabled": true
   },
   "monthly": {
-    "format": "yyyy/yyyy-MM",
-    "template": "obsidian/Template/monthly.md",
-    "folder": "obsidian/Journal",
-    "enabled": true
+    "format": "",
+    "template": "",
+    "folder": ""
   },
   "quarterly": {
     "format": "",
@@ -26,9 +25,8 @@
     "folder": ""
   },
   "yearly": {
-    "format": "YYYY/YYYY",
+    "format": "",
     "template": "",
-    "folder": "obsidian/Journal",
-    "enabled": true
+    "folder": ""
   }
 }

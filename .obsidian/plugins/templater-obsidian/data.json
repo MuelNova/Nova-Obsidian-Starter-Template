@@ -1,17 +1,17 @@
 {
   "command_timeout": 5,
-  "templates_folder": "obsidian/Template",
+  "templates_folder": "Obsidian/模板",
   "templates_pairs": [
     [
-      "test",
-      "echo \"HelloWorld!\";"
+      "",
+      ""
     ]
   ],
   "trigger_on_file_creation": true,
   "auto_jump_to_cursor": false,
   "enable_system_commands": true,
   "shell_path": "",
-  "user_scripts_folder": "obsidian/Template/scripts",
+  "user_scripts_folder": "40 - Obsidian/脚本/Templater",
   "enable_folder_templates": true,
   "folder_templates": [
     {

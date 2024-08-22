@@ -1,0 +1,17 @@
+{
+  "sharetype@@sharetype2-color@@light": "#64CCC5",
+  "sharetype@@sharetype-color@@light": "#053B50",
+  "blue-topaz-theme@@color-scheme-options": "color-scheme-options-avocado-topaz",
+  "blue-topaz-theme@@muted-activeline-bg": false,
+  "blue-topaz-theme@@folder-style-change-options-colorful": true,
+  "blue-topaz-theme@@font-family-folder-file-title": "Arlrdbd, Source Han Sans, Noto Sans CJK, Source Sans Pro",
+  "blue-topaz-theme@@unmuted-collapsed-folder": true,
+  "blue-topaz-theme@@remove-file-icons": true,
+  "blue-topaz-theme@@list-style-change-options": "list-vertical-line-one",
+  "minimal-style@@embed-strict": false,
+  "blue-topaz-theme@@naked-embed": true,
+  "sharetype@@sharetype-color@@dark": "#176B87",
+  "sharetype@@sharetype2-color@@dark": "#64CCC5",
+  "time@@time-color@@light": "#64CCC5",
+  "time@@time-color@@dark": "#64CCC5"
+}

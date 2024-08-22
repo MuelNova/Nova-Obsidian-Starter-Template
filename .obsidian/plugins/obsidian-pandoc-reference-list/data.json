@@ -1,0 +1,19 @@
+{
+  "pathToPandoc": "C:\\Program Files\\Pandoc\\pandoc.exe",
+  "tooltipDelay": 400,
+  "zoteroGroups": [
+    {
+      "id": 1,
+      "name": "我的文库"
+    }
+  ],
+  "renderCitations": true,
+  "renderCitationsReadingMode": true,
+  "renderLinkCitations": true,
+  "pathToBibliography": "D:\\Data\\OneDriveRAW\\OneDrive - novanoir\\NovaNo1r\\obsidian\\PaperBell\\40 - Obsidian\\mybib.bib",
+  "pullFromZotero": false,
+  "cslStyleURL": "https://raw.githubusercontent.com/citation-style-language/styles/master/ecology-and-society.csl",
+  "enableCiteKeyCompletion": true,
+  "showCitekeyTooltips": true,
+  "cslLang": "en-US"
+}
